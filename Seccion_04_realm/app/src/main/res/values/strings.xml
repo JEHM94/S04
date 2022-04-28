@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Seccion_04_realm</string>
+    <string name="addboard">AddBoard</string>
+    <string name="board_tittle">Board Tittle</string>
+    <string name="type_a_note">Type a note...</string>
+    <string name="delete_all">Delete All</string>
+    <string name="edit_name">Edit</string>
+    <string name="delete_board">Delete</string>
+</resources>

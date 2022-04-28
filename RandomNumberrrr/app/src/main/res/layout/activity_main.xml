@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textViewChoose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Choose a Random Number"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewFrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:paddingTop="10dp"
+        android:text="From"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/editTextFrom"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textViewChoose"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <TextView
+        android:id="@+id/textViewTo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:paddingTop="10dp"
+        android:text="To"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@id/editTextTo"
+        app:layout_constraintStart_toEndOf="@id/editTextFrom"
+        app:layout_constraintTop_toBottomOf="@id/textViewChoose"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="220dp" />
+
+    <EditText
+        android:id="@+id/editTextFrom"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="-214000000"
+        android:inputType="number|numberSigned"
+        android:text="1"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryText"
+        app:layout_constraintEnd_toStartOf="@id/textViewTo"
+        app:layout_constraintStart_toEndOf="@id/textViewFrom"
+        app:layout_constraintTop_toBottomOf="@id/textViewChoose" />
+
+    <EditText
+        android:id="@+id/editTextTo"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:hint="214000000"
+        android:inputType="number|numberSigned"
+        android:text="100"
+
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textViewTo"
+        app:layout_constraintTop_toBottomOf="@id/textViewChoose" />
+
+    <TextView
+        android:id="@+id/textViewRandomIs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Your Number is:"
+        android:textColor="@color/colorPrimaryText"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/textViewResult"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="10"
+        android:textColor="@color/colorAccent"
+        android:textSize="60sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@id/buttonRandom"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonRandom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Random"
+        android:textColor="@color/colorPrimaryText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/dividerH"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="20dp"
+        android:background="?android:attr/listDivider"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/textViewRandomIs"
+        tools:layout_editor_absoluteX="0dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

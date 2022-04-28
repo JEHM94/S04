@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Old/AndroidStudioProjects/Nuevo/S04/Seccion_04_realm/app/src/main/res/layout/activity_board.xml" value="0.26875" />
+        <entry key="..\:/Old/AndroidStudioProjects/Nuevo/S04/Seccion_04_realm/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Old/AndroidStudioProjects/Nuevo/S04/Seccion_04_realm/app/src/main/res/layout/activity_note.xml" value="0.26875" />
+        <entry key="..\:/Old/AndroidStudioProjects/Nuevo/S04/Seccion_04_realm/app/src/main/res/layout/dialog_create_board.xml" value="0.26875" />
+        <entry key="..\:/Old/AndroidStudioProjects/Nuevo/S04/Seccion_04_realm/app/src/main/res/layout/dialog_create_note.xml" value="0.26875" />
+        <entry key="..\:/Old/AndroidStudioProjects/Nuevo/S04/Seccion_04_realm/app/src/main/res/layout/list_view_board_item.xml" value="0.25" />
+        <entry key="..\:/Old/AndroidStudioProjects/Nuevo/S04/Seccion_04_realm/app/src/main/res/layout/list_view_note_item.xml" value="0.26875" />
+        <entry key="..\:/Old/AndroidStudioProjects/Nuevo/S04/Seccion_04_realm/app/src/main/res/menu/context_menu_board_activity.xml" value="0.26875" />
+        <entry key="..\:/Old/AndroidStudioProjects/Nuevo/S04/Seccion_04_realm/app/src/main/res/menu/menu_board_activity.xml" value="0.26875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
